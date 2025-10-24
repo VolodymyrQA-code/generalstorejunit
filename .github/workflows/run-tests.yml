@@ -80,7 +80,7 @@ jobs:
           name: android-allure-report
           path: target/site/allure-report/
 
-  ios-ios-test:  
+  ios-test:  
     runs-on: macos-latest
     timeout-minutes: 50
     steps:
